@@ -1,7 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://tea-tracker-be.onrender.com/api";
 
 /* ─── helpers ─────────────────────────────────────────────── */
 function getInitials(name) {
