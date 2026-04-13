@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://tea-tracker-be.onrender.com";
 
 export default function App() {
   const [entries, setEntries] = useState([]);
